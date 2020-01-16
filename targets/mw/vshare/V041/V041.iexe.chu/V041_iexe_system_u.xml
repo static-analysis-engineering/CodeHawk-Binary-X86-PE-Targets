@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V041.iexe" time="2016-06-09 22:18:20.524706"/>
+  <system-info app="V041">
+    <settings/>
+    <data-blocks>
+      <db start="0x401357" end="0x4013f0"/>
+      <db start="0x40162d" end="0x40169f"/>
+      <db start="0x403019" end="0x4031fd"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points/>
+    <non-returning-functions/>
+    <esp-adjustments>
+      <esp-adj fa="0x401020" ia="0x401047" adj="12"/>
+      <esp-adj fa="0x401020" ia="0x4010ba" adj="0"/> <!-- needs summary -->
+    </esp-adjustments>
+  </system-info>
+</codehawk-binary-analyzer>

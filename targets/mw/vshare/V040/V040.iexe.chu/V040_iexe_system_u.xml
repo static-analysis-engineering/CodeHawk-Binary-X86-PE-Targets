@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V040.iexe" time="2016-06-09 22:19:37.981302"/>
+  <system-info app="V040">
+    <settings/>
+    <data-blocks>
+      <db start="0x401000" end="0x4010fc"/>
+      <db start="0x404614" end="0x404710"/>
+      <db start="0x404710" end="0x404a36"/>
+      <db start="0x404a36" end="0x404bfe"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points/>
+    <non-returning-functions/>
+  </system-info>
+</codehawk-binary-analyzer>

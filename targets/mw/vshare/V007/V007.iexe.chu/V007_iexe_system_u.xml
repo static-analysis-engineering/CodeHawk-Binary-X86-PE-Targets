@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V007.iexe" time="2016-06-10 22:15:05.631851"/>
+  <system-info app="V007">
+    <settings/>
+    <data-blocks>
+       <db start="0x45c21f" end="0x45c3fd"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points>
+       <fe a="0x4032f0"/>
+       <fe a="0x403350"/>
+       <fe a="0x403490"/>
+       <fe a="0x4034e0"/>
+       <fe a="0x4035a0"/>
+       <fe a="0x403c10"/>
+       <fe a="0x403ee0"/>
+       <fe a="0x404180"/>
+       <fe a="0x4051b0"/>
+       <fe a="0x405330"/>
+       <fe a="0x4054e0"/>
+       <fe a="0x405500"/>
+       <fe a="0x405590"/>
+       <fe a="0x405610"/>
+       <fe a="0x405870"/>
+       <fe a="0x40a210"/>
+       <fe a="0x40b9b0"/>
+       <fe a="0x40bec0"/>
+       <fe a="0x40bed2"/>
+       <fe a="0x40c010"/>
+       <fe a="0x40e240"/>
+       <fe a="0x40eab0"/>
+       <fe a="0x40eb00"/>
+       <fe a="0x40f120"/>
+       <fe a="0x40f1c0"/>
+       <fe a="0x40f1f0"/>
+       <fe a="0x40f3b0"/>
+       <fe a="0x40f520"/>
+       <fe a="0x40f600"/>
+       <fe a="0x40f820"/>
+       <fe a="0x40fc80"/>
+       <fe a="0x40fcb0"/>
+       <fe a="0x40fdb0"/>
+       <fe a="0x410430"/>
+       <fe a="0x417a30"/>
+       <fe a="0x41a7e0"/>
+       <fe a="0x41bb30"/>
+       <fe a="0x41bbd0"/>
+       <fe a="0x41bd30"/>
+       <fe a="0x41c0a0"/>
+       <fe a="0x41c170"/>
+       <fe a="0x41c7d0"/>
+       <fe a="0x41ca80"/>
+       <fe a="0x41cca0"/>
+       <fe a="0x41ce30"/>
+       <fe a="0x41d040"/>
+       <fe a="0x41d1b0"/>
+       <fe a="0x41d1f0"/>
+       <fe a="0x41d2e0"/>
+       <fe a="0x41d56f"/>
+       <fe a="0x41d670"/>
+       <fe a="0x41d6a0"/>
+       <fe a="0x41df30"/>
+       <fe a="0x41df60"/>
+       <fe a="0x41f636"/>
+       <fe a="0x41fb4a"/>
+       <fe a="0x41fb8c"/>
+       <fe a="0x41fbfa"/>
+       <fe a="0x4207e6"/>
+       <fe a="0x4208b8"/>
+       <fe a="0x4208d5"/>
+       <fe a="0x420ffc"/>
+       <fe a="0x4213f0"/>
+       <fe a="0x42177e"/>
+       <fe a="0x4217c8"/>
+       <fe a="0x4217f0"/>
+       <fe a="0x42180d"/>
+       <fe a="0x421860"/>
+       <fe a="0x42189e"/>
+       <fe a="0x42191b"/>
+       <fe a="0x421b59"/>
+       <fe a="0x424ba9"/>
+       <fe a="0x424cd5"/>
+       <fe a="0x424cff"/>
+       <fe a="0x424ea3"/>
+       <fe a="0x424ebf"/>
+       <fe a="0x424edb"/>
+       <fe a="0x425219"/>
+       <fe a="0x42596a"/>
+       <fe a="0x425e9c"/>
+       <fe a="0x430f93"/>
+       <fe a="0x43b023"/>
+       <fe a="0x43b58a"/>
+       <fe a="0x43c3e9"/>
+       <fe a="0x43e9ba"/>
+       <fe a="0x43eac6"/>
+       <fe a="0x43ee96"/>
+       <fe a="0x43f44d"/>
+       <fe a="0x43fe07"/>
+       <fe a="0x44b9d0"/>
+    </function-entry-points>
+    <non-returning-functions/>
+  </system-info>
+</codehawk-binary-analyzer>

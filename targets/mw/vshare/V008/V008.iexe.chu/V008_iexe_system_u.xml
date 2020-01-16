@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V008.iexe" time="2016-06-10 22:13:47.072864"/>
+  <system-info app="V008">
+    <settings/>
+    <data-blocks>
+       <db start="0x42427c" end="0x4243fe "/>
+    </data-blocks>
+    <function-names>
+       <fn a="0x410bac" n="_toupper" src="idapro"/>
+       <fn a="0x410d6c" n="_isalnum" src="idapro"/>
+       <fn a="0x410d99" n="_isdigit" src="idapro"/>
+       <fn a="0x410dd0" n="_strchr" src="idapro"/>
+    </function-names>
+    <function-entry-points>
+       <fe a="0x4011c3"/>
+       <fe a="0x4012de"/>
+       <fe a="0x401467"/>
+       <fe a="0x401503"/>
+       <fe a="0x4015fc"/>
+       <fe a="0x4017f6"/>
+       <fe a="0x40cef6"/>
+       <fe a="0x40ead7"/>
+       <fe a="0x410144"/>
+       <fe a="0x41afa4"/>
+       <fe a="0x41cc84"/>
+    </function-entry-points>
+    <non-returning-functions/>
+  </system-info>
+</codehawk-binary-analyzer>

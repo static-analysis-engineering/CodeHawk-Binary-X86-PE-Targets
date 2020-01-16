@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V030.iexe" time="2016-06-10 22:04:28.350082"/>
+  <system-info app="V030">
+    <settings/>
+    <data-blocks>
+       <db start="0x801000" end="0x8011c0"/>
+       <db start="0x801354" end="0x802000"/>
+       <db start="0x802000" end="0x802790"/>
+       <db start="0x807f20" end="0x808256"/>
+       <db start="0x8082d0" end="0x8089fe"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points/>
+    <non-returning-functions/>
+    <call-targets>
+       <tgt fa="0x80399e" ia="0x8039dd" ctag="dll"
+	    dll="dnsapi.dll" name="DnsQuery_A"/>
+       <tgt fa="0x803b61" ia="0x803aca" ctag="dll"
+	    dll="iphlpapi.dll" name="GetNetworkParams"/>
+    </call-targets>
+  </system-info>
+</codehawk-binary-analyzer>

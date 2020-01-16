@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V03c.iexe" time="2016-05-12 21:32:52.032154"/>
+  <system-info app="V03c">
+    <settings/>
+    <data-blocks>
+      <db start="0x4124f9" end="0x412530"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points/>
+    <esp-adjustments>
+      <esp-adj fa="0x401c50" ia="0x401c90" adj="16"/>
+      <esp-adj fa="0x401c50" ia="0x401cc8" adj="20"/>
+      <esp-adj fa="0x401c50" ia="0x401d31" adj="16"/>
+      <esp-adj fa="0x40a000" ia="0x40a008" adj="4"/>
+      <esp-adj fa="0x40a800" ia="0x40a811" adj="8"/>
+      <esp-adj fa="0x40bb60" ia="0x40c203" adj="16"/><!-- replace -->
+      <esp-adj fa="0x4161f0" ia="0x4162f8" adj="12"/>
+      <esp-adj fa="0x418a00" ia="0x418a01" adj="4"/><!-- gv_0x43405c -->
+      <esp-adj fa="0x421cc0" ia="0x421ce8" adj="4"/>
+      <esp-adj fa="0x427ca0" ia="0x427cb7" adj="12"/><!-- (arg.0020_in)[32] -->
+      <esp-adj fa="0x428210" ia="0x42822c" adj="12"/>
+      <esp-adj fa="0x428f16" ia="0x428f3f" adj="4"/><!-- (arg.0008_in)[0]_in)[4] -->
+      <esp-adj fa="0x42905c" ia="0x4290d4" adj="8"/><!-- gv_0x439cdc -->
+      <esp-adj fa="0x42905c" ia="0x4290f7" adj="8"/><!-- gv_0x439cdc -->
+      <esp-adj fa="0x42905c" ia="0x429126" adj="8"/><!-- gv_0x439cd8 -->
+      <esp-adj fa="0x42905c" ia="0x42919c" adj="8"/><!-- gv_0x439cdc -->
+      <esp-adj fa="0x42905c" ia="0x429209" adj="8"/><!-- gv_0x439cd8 -->
+      <esp-adj fa="0x42905c" ia="0x42924a" adj="8"/><!-- gv_0x439cdc -->
+    </esp-adjustments>
+    <esp-adjustments-i>
+      <esp-adj ia="0x4019fe" adj="0"/><!-- gv_0x4340ac -->
+      <esp-adj ia="0x4029e1" adj="4"/>
+      <esp-adj ia="0x4189a3" adj="4"/><!-- gv_0x434048 -->
+      <esp-adj ia="0x418a01" adj="4"/><!-- gv_0x43405c -->
+    </esp-adjustments-i>
+    <non-returning-functions/>
+    <call-targets>
+      <tgt fa="0x4010c0" ia="0x40114e" ctag="dll"
+	   dll="kernel32.dll" name="EnterCriticalSection"/>
+      <tgt fa="0x4010c0" ia="0x4011e6" ctag="dll"
+	   dll="kernel32.dll" name="LeaveCriticalSection"/>
+      <tgt fa="0x4010c0" ia="0x401210" ctag="dll"
+	   dll="kernel32.dll" name="LeaveCriticalSection"/>
+      <tgt fa="0x401220" ia="0x4012ae" ctag="dll"
+	   dll="kernel32.dll" name="EnterCriticalSection"/>
+      <tgt fa="0x401220" ia="0x40133b" ctag="dll"
+	   dll="kernel32.dll" name="LeaveCriticalSection"/>
+      <tgt fa="0x401220" ia="0x4013af" ctag="dll"
+	   dll="kernel32.dll" name="LeaveCriticalSection"/>
+      <tgt fa="0x4013e0" ia="0x401483" ctag="dll"
+	   dll="kernel32.dll" name="VirtualAlloc"/>
+      <tgt fa="0x401500" ia="0x4015bd" ctag="dll"
+	   dll="kernel32.dll" name="VirtualAlloc"/>
+      <tgt fa="0x401620" ia="0x4016ae" ctag="dll"
+	   dll="kernel32.dll" name="EnterCriticalSection"/>
+      <tgt fa="0x401620" ia="0x40173c" ctag="dll"
+	   dll="kernel32.dll" name="LeaveCriticalSection"/>
+      <tgt fa="0x401760" ia="0x40183d" ctag="dll"
+	   dll="kernel32.dll" name="CreateEventA"/>
+      <tgt fa="0x4018d0" ia="0x40198f" ctag="dll"
+	   dll="kernel32.dll" name="WaitForSingleObject"/>
+      <tgt fa="0x4018d0" ia="0x4019f3" ctag="dll"
+	   dll="kernel32.dll" name="CloseHandle"/>
+      <tgt fa="0x4018d0" ia="0x4019fc" ctag="dll"
+	   dll="kernel32.dll" name="CloseHandle"/>
+      <tgt fa="0x401a50" ia="0x401be5" ctag="dll"
+	   dll="ws2_32.dll" name="setsockopt"/>
+      <tgt fa="0x401a50" ia="0x401c1c" ctag="dll"
+	   dll="ws2_32.dll" name="WSAIoctl"/>
+      <tgt fa="0x4022b0" ia="0x40233a" ctag="dll"
+	   dll="kernel32.dll" name="WaitForSingleObject"/>
+      <tgt fa="0x402550" ia="0x4025ad" ctag="dll"
+	   dll="ws2_32.dll" name="setsockopt"/>
+      <tgt fa="0x402550" ia="0x40265a" ctag="dll"
+	   dll="kernel32.dll" name="InterlockedExchange"/>
+      <tgt fa="0x402550" ia="0x4026aa" ctag="dll"
+	   dll="kernel32.dll" name="SetEvent"/>
+      <tgt fa="0x402a10" ia="0x402aa2" ctag="dll"
+	   dll="kernel32.dll" name="lstrcpyA"/>
+      <tgt fa="0x402a10" ia="0x402aeb" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x402d00" ia="0x402dc6" ctag="dll"
+	   dll="advapi32.dll" name="LookupAccountNameA"/>
+      <tgt fa="0x402d00" ia="0x402e21" ctag="dll"
+	   dll="advapi32.dll" name="IsValidSid"/>
+      <tgt fa="0x402eb0" ia="0x402f04" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <tgt fa="0x402eb0" ia="0x402fad" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <tgt fa="0x402eb0" ia="0x402fb5" ctag="dll"
+	   dll="kernel32.dll" name="MultiByteToWideChar"/>
+      <tgt fa="0x402fd0" ia="0x403055" ctag="dll"
+	   dll="advapi32.dll" name="LsaOpenPolicy"/>
+      <tgt fa="0x403170" ia="0x403223" ctag="dll"
+	   dll="kernel32.dll" name="WideCharToMultiByte"/>
+      <tgt fa="0x403380" ia="0x4034c9" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x403380" ia="0x40354d" ctag="dll"
+	   dll="advapi32.dll" name="LsaFreeMemory"/>
+      <tgt fa="0x403380" ia="0x403574" ctag="dll"
+	   dll="advapi32.dll" name="LsaFreeMemory"/>
+      <!-- 0x403590 -->
+      <tgt fa="0x403590" ia="0x403627" ctag="dll"
+	   dll="kernel32.dll" name="lstrcpyA"/>
+      <tgt fa="0x403590" ia="0x403673" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x403590" ia="0x403682" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x403590" ia="0x403731" ctag="dll"
+	   dll="shell32.dll" name="SHGetSpecialFolderPathA"/>
+      <tgt fa="0x403590" ia="0x4037ac" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x403590" ia="0x403835" ctag="dll"
+	   dll="kernel32.dll" name="GetVersionExA"/>
+      <!-- 0x4040c0 -->
+      <tgt fa="0x4040c0" ia="0x404118" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <!-- 0x4045e0 -->
+      <tgt fa="0x4045e0" ia="0x404720" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <tgt fa="0x4045e0" ia="0x40473e" ctag="dll"
+	   dll="kernel32.dll" name="lstrcpyA"/>
+      <tgt fa="0x4045e0" ia="0x4047a5" ctag="dll"
+	   dll="kernel32.dll" name="CharNextA"/>
+      <tgt fa="0x4045e0" ia="0x4047c5" ctag="dll"
+	   dll="kernel32.dll" name="CharNextA"/>
+      <tgt fa="0x4045e0" ia="0x4048a6" ctag="dll"
+	   dll="kernel32.dll" name="GetFileAttributesA"/>
+      <tgt fa="0x4045e0" ia="0x4048b3" ctag="dll"
+	   dll="kernel32.dll" name="CreateDirectoryA"/>
+      <tgt fa="0x4045e0" ia="0x4048ba" ctag="dll"
+	   dll="kernel32.dll" name="GetLastError"/>
+      <tgt fa="0x4045e0" ia="0x404913" ctag="dll"
+	   dll="kernel32.dll" name="CharNextA"/>
+      <!-- 0x404980 -->
+      <tgt fa="0x404980" ia="0x404a3b" ctag="dll"
+	   dll="advapi32.dll" name="RegOpenKeyExA"/>
+      <!-- 0x404e30 -->
+      <tgt fa="0x404e30" ia="0x404f09" ctag="dll"
+	   dll="kernel32.dll" name="GetLogicalDriveStringsA"/>
+      <!-- 0x405350 -->
+      <tgt fa="0x405350" ia="0x4053ce" ctag="dll"
+	   dll="kernel32.dll" name="LocalAlloc"/>
+      <!-- 0x405820 -->
+      <tgt fa="0x405820" ia="0x405893" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x405820" ia="0x405900" ctag="dll"
+	   dll="kernel32.dll" name="FindFirstFileA"/>
+      <!-- 0x405878 -->
+      <tgt fa="0x405878" ia="0x405893" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <!-- 0x405b30 -->
+      <tgt fa="0x405b30" ia="0x405bd7" ctag="dll"
+	   dll="kernel32.dll" name="CreateFileA"/>
+      <!-- 0x405dd0 -->
+      <tgt fa="0x405dd0" ia="0x405e6b" ctag="dll"
+	   dll="kernel32.dll" name="CreateFileA"/>
+      <!-- 0x406100 -->
+      <tgt fa="0x406100" ia="0x406167" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <!-- 0x406270 -->
+      <tgt fa="0x406270" ia="0x4062f4" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <!-- 0x4066f0 -->
+      <tgt fa="0x4066f0" ia="0x4067ce" ctag="dll"
+	   dll="kernel32.dll" name="FindFirstFileA"/>
+      <!-- 0x406860 -->
+      <tgt fa="0x406860" ia="0x40691c" ctag="dll"
+	   dll="kernel32.dll" name="FindFirstFileA"/>
+      <!-- 0x406b00 -->
+      <tgt fa="0x406b00" ia="0x406b8d" ctag="dll"
+	   dll="kernel32.dll" name="CreateFileA"/>
+      <!-- 0x406d50 -->
+      <tgt fa="0x406d50" ia="0x406da6" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <!-- 0x407090 -->
+      <tgt fa="0x407090" ia="0x407103" ctag="dll"
+	   dll="advapi32.dll" name="OpenSCManagerA"/>
+      <!-- 0x407bf0 -->
+      <tgt fa="0x407bf0" ia="0x407cd5" ctag="dll"
+	   dll="advapi32.dll" name="RegOpenKeyExA"/>
+      <tgt fa="0x407bf0" ia="0x407d7c" ctag="dll"
+	   dll="advapi32.dll" name="RegQueryValueA"/>
+      <tgt fa="0x407bf0" ia="0x407dfe" ctag="dll"
+	   dll="advapi32.dll" name="RegCloseKey"/>
+      <tgt fa="0x407bf0" ia="0x407e76" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <tgt fa="0x407bf0" ia="0x407f20" ctag="dll"
+	   dll="kernel32.dll" name="lstrcpyA"/>
+      <tgt fa="0x407bf0" ia="0x408004" ctag="dll"
+	   dll="kernel32.dll" name="CreateProcessA"/>
+      <!-- 0x409810 -->
+      <tgt fa="0x409810" ia="0x409847" ctag="dll"
+	   dll="ws2_32.dll" name="listen"/>
+      <!-- 0x40b470 -->
+      <tgt fa="0x40b470" ia="0x40b5ed" ctag="dll"
+	   dll="kernel32.dll" name="InterlockedExchange"/>
+      <tgt fa="0x40b470" ia="0x40b6cc" ctag="dll"
+	   dll="kernel32.dll" name="Sleep"/>
+      <tgt fa="0x40b470" ia="0x40b7c9" ctag="dll"
+	   dll="kernel32.dll" name="CreateThread"/>
+      <!-- 0x40bb60 -->
+      <tgt fa="0x40bb60" ia="0x40bc31" ctag="dll"
+	   dll="kernel32.dll" name="GetTickCount"/>
+      <tgt fa="0x40bb60" ia="0x40bc41" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x40bb60" ia="0x40bc92" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x40bb60" ia="0x40beb4" ctag="dll"
+	   dll="advapi32.dll" name="RegOpenKeyExA"/>
+      <tgt fa="0x40bb60" ia="0x40bfa6" ctag="dll"
+	   dll="advapi32.dll" name="RegQueryValueA"/>
+      <tgt fa="0x40bb60" ia="0x40c02e" ctag="dll"
+	   dll="advapi32.dll" name="RegCloseKey"/>
+      <tgt fa="0x40bb60" ia="0x40c17c" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x40bb60" ia="0x40c1c5" ctag="dll"
+	   dll="advapi32.dll" name="RegOpenKeyExA"/>
+      <!-- 0x411e20 -->
+      <tgt fa="0x411e20" ia="0x411f85" ctag="dll"
+	   dll="user32.dll" name="LoadCursorA"/>
+      <tgt fa="0x411e20" ia="0x4120ce" ctag="dll"
+	   dll="user32.dll" name="GetDesktopWindow"/>
+      <!-- 0x414050 -->
+      <tgt fa="0x414050" ia="0x414109" ctag="dll"
+	   dll="advapi32.dll" name="OpenSCManagerA"/>
+      <tgt fa="0x414050" ia="0x4141a9" ctag="dll"
+	   dll="advapi32.dll" name="OpenServiceA"/>
+      <!-- 0x414f10 -->
+      <tgt fa="0x414f10" ia="0x4150a0" ctag="dll"
+	   dll="advapi32.dll" name="OpenSCManagerA"/>
+      <tgt fa="0x414f10" ia="0x4150b0" ctag="dll"
+	   dll="kernel32.dll" name="LocalAlloc"/>
+      <!-- 0x4161f0 -->
+      <tgt fa="0x4161f0" ia="0x416292" ctag="dll"
+	   dll="kernel32.dll" name="GetVersionExA"/>
+      <tgt fa="0x4161f0" ia="0x416357" ctag="dll"
+	   dll="kernel32.dll" name="GetVersionExA"/>
+      <tgt fa="0x4161f0" ia="0x416429" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x4161f0" ia="0x4163fa" ctag="dll"
+	   dll="kernel32.dll" name="lstrcpyA"/>
+      <tgt fa="0x4161f0" ia="0x4164b8" ctag="dll"
+	   dll="kernel32.dll" name="GlobalMemoryStatusEx"/>
+      <tgt fa="0x4161f0" ia="0x416554" ctag="dll"
+	   dll="kernel32.dll" name="GetDriveTypeA"/>
+      <tgt fa="0x4161f0" ia="0x416627" ctag="dll"
+	   dll="kernel32.dll" name="GetDiskFreeSpaceExA"/>
+      <tgt fa="0x4161f0" ia="0x4166cb" ctag="dll"
+	   dll="kernel32.dll" name="GetTickCount"/>
+      <!-- 418ea0 -->
+      <tgt fa="0x418ea0" ia="0x418fe2" ctag="dll"
+	   dll="kernel32.dll" name="CreateEventA"/>
+      <tgt fa="0x419ea0" ia="0x419053" ctag="dll"
+	   dll="kernel32.dll" name="GetLastError"/>
+      <!-- 41a110 -->
+      <tgt fa="0x41a110" ia="0x41a1ea" ctag="dll"
+	   dll="user32.dll" name="GetInputState"/>
+      <tgt fa="0x41a110" ia="0x41a2d1" ctag="dll"
+	   dll="kernel32.dll" name="GetCurrentThreadId"/>
+      <tgt fa="0x41a110" ia="0x41a2d4" ctag="dll"
+	   dll="user32.dll" name="PostThreadMessageA"/>
+      <tgt fa="0x41a110" ia="0x41a359" ctag="dll"
+	   dll="user32.dll" name="GetMessageA"/>
+      <tgt fa="0x41a110" ia="0x41a586" ctag="dll"
+	   dll="kernel32.dll" name="ExpandEnvironmentStringsA"/>
+      <tgt fa="0x41a110" ia="0x41a815" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x41a110" ia="0x41a946" ctag="dll"
+	   dll="kernel32.dll" name="GetModuleFileNameA"/>
+      <tgt fa="0x41a110" ia="0x41ad85" ctag="dll"
+	   dll="shell32.dll" name="ShellExecuteA"/>
+      <tgt fa="0x41a110" ia="0x41ae0a" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x41a110" ia="0x41ab36" ctag="dll"
+	   dll="kernel32.dll" name="Sleep"/>
+      <tgt fa="0x41a110" ia="0x41ab3f" ctag="dll"
+	   dll="advapi32.dll" name="StartServiceCtrlDispatcherA"/>
+      <tgt fa="0x41a110" ia="0x41ab46" ctag="dll"
+	   dll="kernel32.dll" name="Sleep"/>
+      <tgt fa="0x41a110" ia="0x41ab4f" ctag="dll"
+	   dll="advapi32.dll" name="StartServiceCtrlDispatcherA"/>
+      <tgt fa="0x41a110" ia="0x41ae6f" ctag="dll"
+	   dll="kernel32.dll" name="lstrlenA"/>
+      <!-- 41aef0 -->
+      <tgt fa="0x41aef0" ia="0x41b00a" ctag="dll"
+	   dll="kernel32.dll" name="GetModuleFileNameA"/>
+      <tgt fa="0x41aef0" ia="0x41b167" ctag="dll"
+	   dll="kernel32.dll" name="CopyFileA"/>
+      <tgt fa="0x41aef0" ia="0x41b264" ctag="dll"
+	   dll="kernel32.dll" name="Sleep"/>
+      <tgt fa="0x41aef0" ia="0x41b385" ctag="dll"
+	   dll="advapi32.dll" name="OpenSCManagerA"/>
+      <tgt fa="0x41aef0" ia="0x41b3c1" ctag="dll"
+	   dll="advapi32.dll" name="CreateServiceA"/>
+      <tgt fa="0x41aef0" ia="0x41b477" ctag="dll"
+	   dll="advapi32.dll" name="LockServiceDatabase"/>
+      <tgt fa="0x41aef0" ia="0x41b581" ctag="dll"
+	   dll="advapi32.dll" name="ChangeServiceConfig2A"/>
+      <tgt fa="0x41aef0" ia="0x41b672" ctag="dll"
+	   dll="advapi32.dll" name="UnlockServiceDatabase"/>
+      <tgt fa="0x41c8b0" ia="0x40d873" ctag="dll"
+	   dll="kernel32.dll" name="CloseHandle"/>
+      <!-- 0x41e0a0 -->
+      <tgt fa="0x41e0a0" ia="0x41e169" ctag="dll"
+	   dll="user32.dll" name="wsprintfA"/>
+      <tgt fa="0x41e0a0" ia="0x41e1f6" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e202" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e24a" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e256" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e29e" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e2aa" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e2f2" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e2fe" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e346" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e352" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e39a" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e3a6" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e3ee" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e3fa" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e442" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e44e" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e496" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e4a2" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e4ea" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e4f6" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e53e" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e54a" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e592" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e59e" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+      <tgt fa="0x41e0a0" ia="0x41e5ed" ctag="dll"
+	   dll="kernel32.dll" name="lstrcatA"/>
+    </call-targets>
+    <call-targets-i>
+      <tgt ia="0x40198f" ctag="dll" dll="kernel32.dll" name="WaitForSingleObject"/>
+      <tgt ia="0x4019f3" ctag="dll" dll="kernel32.dll" name="CloseHandle"/>
+      <tgt ia="0x4019fc" ctag="dll" dll="kernel32.dll" name="CloseHandle"/>
+      <tgt ia="0x40d873" ctag="dll" dll="kernel32.dll" name="CloseHandle"/>
+      <tgt ia="0x40f740" ctag="dll" dll="advapi32.dll" name="RegCloseKey"/>
+      <tgt ia="0x4105d7" ctag="dll" dll="user32.dll" name="DestroyCursor"/>
+      <tgt ia="0x41c2af" ctag="dll" dll="kernel32.dll" name="TerminateThread"/>
+    </call-targets-i>
+  </system-info>
+</codehawk-binary-analyzer>

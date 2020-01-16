@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V04a.iexe" time="2016-05-11 22:11:19.184282"/>
+  <system-info app="V04a">
+    <settings/>
+    <data-blocks>
+       <db start="0x403023" end="0x403030"/>
+       <db start="0x4033e5" end="0x4033e6"/>
+       <db start="0x403d18" end="0x403d24"/>
+       <db start="0x404293" end="0x4042b8"/>
+       <db start="0x4043be" end="0x4043cc"/>
+       <db start="0x404533" end="0x404544"/>
+       <db start="0x4045ec" end="0x4045f4"/>
+       <db start="0x40460c" end="0x4047fe"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points>
+      <fe a="0x402a08"/>
+       <!-- <fe a="0x403031"/> -->
+    </function-entry-points>
+    <non-returning-functions/>
+    <esp-adjustments-i>
+      <esp-adj ia="0x402a3b" adj="0"/><!-- gv_0x40600c -->
+      <esp-adj ia="0x40244d" adj="0"/><!-- gv_0x405024 -->
+      <esp-adj ia="0x40246d" adj="0"/><!-- gv_0x405028 -->
+      <esp-adj ia="0x402495" adj="0"/><!-- gv_0x40502c -->
+      <esp-adj ia="0x4024ae" adj="0"/><!-- gv_0x405028 -->
+      <esp-adj ia="0x4024c7" adj="0"/><!-- gv_0x405024 -->
+      <esp-adj ia="0x4024fa" adj="0"/><!-- gv_0x406008 -->
+      <esp-adj ia="0x4026fa" adj="0"/><!-- (eax_in)[28] -->
+      <esp-adj ia="0x402914" adj="0"/>
+      <esp-adj ia="0x40292c" adj="0"/><!-- gv_0x406010 -->
+      <esp-adj ia="0x402d10" adj="0"/><!-- gv_0x40600c -->
+      <esp-adj ia="0x402d2c" adj="0"/><!-- gv_0x406004 -->
+      <esp-adj ia="0x402dc6" adj="0"/>
+      <esp-adj ia="0x402e26" adj="0"/>
+      <esp-adj ia="0x402ed0" adj="0"/><!-- (ecx_in)[(ebp_in)[12]_in:4] -->
+      <esp-adj ia="0x402ee2" adj="0"/>
+      <esp-adj ia="0x402eec" adj="0"/>
+      <esp-adj ia="0x402fc7" adj="0"/><!-- gv_0x406220 -->
+      <esp-adj ia="0x403058" adj="0"/>
+      <esp-adj ia="0x4030c5" adj="0"/><!-- gv_0x406644 -->
+      <esp-adj ia="0x4030e1" adj="0"/><!-- gv_0x406018 -->
+      <esp-adj ia="0x403512" adj="0"/>
+    </esp-adjustments-i>
+  </system-info>
+</codehawk-binary-analyzer>

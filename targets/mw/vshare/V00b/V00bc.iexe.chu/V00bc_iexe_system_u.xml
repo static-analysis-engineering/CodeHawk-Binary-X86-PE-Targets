@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V00bc.iexe" time="2016-05-22 12:48:06.576917"/>
+  <system-info app="V00b">
+    <settings/>
+    <data-blocks>
+       <db start="0x401357" end="0x4014b8"/>
+       <db start="0x4016ba" end="0x40179b"/>
+       <db start="0x40a510" end="0x40a514"/>
+       <db start="0x40a520" end="0x40b470"/>
+       <db start="0x411d0f" end="0x412000"/>
+       <db start="0x412000" end="0x413000"/>
+       <db start="0x413000" end="0x414000"/>
+       <db start="0x414000" end="0x414750"/>
+       <db start="0x4148e6" end="0x415000"/>
+       <db start="0x415000" end="0x416000"/>
+       <db start="0x416000" end="0x417000"/>
+       <db start="0x417000" end="0x418000"/>
+       <db start="0x418000" end="0x419000"/>
+       <db start="0x419000" end="0x41a000"/>
+       <db start="0x41a000" end="0x41b000"/>
+       <db start="0x41b000" end="0x41bbfd"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points>
+      <fe a="0x406820"/>
+      <fe a="0x407250"/>
+      <fe a="0x409000"/>
+      <fe a="0x409020"/>
+      <fe a="0x409040"/>
+      <fe a="0x40ba98"/>
+      <fe a="0x40bda0"/>
+      <fe a="0x40c1f9"/>
+      <fe a="0x40c2b9"/>
+      <fe a="0x410c6e"/>
+    </function-entry-points>
+    <non-returning-functions/>
+    <userdeclared-codesections>
+      <code va="0x40b000" size="0x10c00"/>
+    </userdeclared-codesections>
+    <esp-adjustments>
+      <esp-adj fa="0x401020" ia="0x401047" adj="12"/><!-- gv_0x41b63c -->
+      <esp-adj fa="0x408400" ia="0x408423" adj="0" />
+      <esp-adj fa="0x40cd52" ia="0x40cd5c" adj="4" /><!-- gv_0x10008174 -->
+      <esp-adj fa="0x40ce49" ia="0x40ce61" adj="4" /><!-- gv_0x10008044 -->
+      <esp-adj fa="0x40f60a" ia="0x40f61b" adj="4" /><!-- gv_0x100080b0 -->
+      <esp-adj fa="0x40f60a" ia="0x40f66d" adj="4" /><!-- gv_0x100080e0 -->
+      <esp-adj fa="0x40f60a" ia="0x40f67a" adj="4" /><!-- gv_0x1000803c -->
+      <esp-adj fa="0x40f60a" ia="0x40f6fb" adj="8" /><!-- gv_0x100080a4 -->
+      <esp-adj fa="0x40f60a" ia="0x40f707" adj="12"/><!-- gv_0x100080ac -->
+      <esp-adj fa="0x40f8f3" ia="0x40f9b7" adj="4" /><!-- gv_0x10008044 -->
+      <esp-adj fa="0x40f8f3" ia="0x40faba" adj="24"/><!-- gv_0x10008038 -->
+      <esp-adj fa="0x40f8f3" ia="0x40fccb" adj="24"/><!-- gv_0x100080c8 -->
+      <esp-adj fa="0x40f8f3" ia="0x40fd0c" adj="24"/><!-- gv_0x100080c8 -->
+      <esp-adj fa="0x40f8f3" ia="0x40fdca" adj="16"/><!-- gv_0x10008114 -->
+      <esp-adj fa="0x40f8f3" ia="0x40fe84" adj="16"/><!-- gv_0x10008128 -->
+      <esp-adj fa="0x410ec5" ia="0x410ede" adj="8" /><!-- gv_0x10008148 -->
+      <esp-adj fa="0x410ec5" ia="0x410eeb" adj="8" /><!-- gv_0x10008148 -->
+      <esp-adj fa="0x410ec5" ia="0x410ef8" adj="8" /><!-- gv_0x10008148 -->
+      <esp-adj fa="0x410ec5" ia="0x410f5c" adj="8" /><!-- gv_0x10008148 -->
+      <esp-adj fa="0x410ec5" ia="0x410f5f" adj="8" /><!-- gv_0x100080ec -->
+      <esp-adj fa="0x410ec5" ia="0x410f73" adj="4" /><!-- gv_0x100080d8 -->
+      <esp-adj fa="0x410ec5" ia="0x410fd2" adj="8" /><!-- gv_0x10008148 -->
+      <esp-adj fa="0x410ec5" ia="0x410fd5" adj="8" /><!-- gv_0x100080ec -->
+      <esp-adj fa="0x410ec5" ia="0x410fdc" adj="0" /><!-- ((ecx_in)[20]_in)[0] -->
+      <esp-adj fa="0x410c15" ia="0x410c29" adj="4" /><!-- gv_0x10008058 -->
+      <esp-adj fa="0x41191c" ia="0x411926" adj="4" /><!-- gv_0x10008044 -->
+      <esp-adj fa="0x4119f0" ia="0x411a0b" adj="4" /><!-- gv_0x100080b4 -->
+      <esp-adj fa="0x4119f0" ia="0x411a2e" adj="12"/><!-- gv_0x100080b8 -->
+      <esp-adj fa="0x4119f0" ia="0x411a35" adj="0" /><!-- gv_0x10008070 -->
+      <esp-adj fa="0x4119f0" ia="0x411a68" adj="4" /><!-- gv_0x100080d8 -->
+      <esp-adj fa="0x411c74" ia="0x411c85" adj="12"/><!-- gv_0x10008030 -->
+      <esp-adj fa="0x411c74" ia="0x411c9a" adj="12"/><!-- gv_0x10008034 -->
+      <esp-adj fa="0x411c74" ia="0x411caa" adj="8" /><!-- gv_0x100080c0 -->
+      <esp-adj fa="0x411c74" ia="0x411cb7" adj="4" /><!-- gv_0x10008024 -->
+      <esp-adj fa="0x411c74" ia="0x411cc9" adj="4" /><!-- gv_0x10008020 -->
+      <esp-adj fa="0x411c74" ia="0x411ce5" adj="28"/><!-- gv_0x100080a0 -->
+      <esp-adj fa="0x411c74" ia="0x411cf8" adj="20"/><!-- gv_0x10008098 -->
+      <esp-adj fa="0x411c74" ia="0x411cff" adj="4" /><!-- gv_0x10008058 -->
+    </esp-adjustments>
+  </system-info>
+</codehawk-binary-analyzer>

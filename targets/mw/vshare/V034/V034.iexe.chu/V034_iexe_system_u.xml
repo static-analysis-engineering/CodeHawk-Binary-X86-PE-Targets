@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <codehawk-binary-analyzer>
+  <header info="system-userdata" name="V034.iexe" time="11/18/2015 23:08:09"/>
+  <system-info app="V034">
+   <settings/>
+   <data-blocks>
+      <db start="0x401064" end="0x401070"/>
+      <db start="0x4015cb" end="0x4015d8"/>
+      <db start="0x408f84" end="0x408ffe"/>
+   </data-blocks>
+   <function-names/>
+   <function-entry-points>
+      <fe a="0x408af9"/>
+      <fe a="0x408bcc"/>
+      <fe a="0x408cb4"/>
+   </function-entry-points>
+   <non-returning-functions/>
+   <cfnops>
+     <nop start="0x40111b" end="0x40112e" desc="jmp,jnz,jz"/>
+     <nop start="0x4011da" end="0x4011e9" desc="jz,jnz,jz,jnz,jmp"/>
+     <nop start="0x4019c2" end="0x4019cf" desc="jz,jnz"/>
+     <nop start="0x401b07" end="0x401b15" desc="jz,jnz"/>
+     <nop start="0x401cc5" end="0x401cd3" desc="jz,jnz"/>
+     <nop start="0x40222a" end="0x402232" desc="clc,jnc"/>
+     <nop start="0x4028ee" end="0x4028f7" desc="clc,jnc"/>
+     <nop start="0x402a3f" end="0x402a4d" desc="jz,jnz"/>
+     <nop start="0x402fef" end="0x402ff7" desc="clc,jnc"/>
+     <nop start="0x40381c" end="0x40382d" desc="jz,jnz"/>
+     <nop start="0x404079" end="0x404086" desc="jle,jg"/>
+     <nop start="0x405b1d" end="0x405b30" desc="jmp,jnz,jz"/>
+     <nop start="0x4047d4" end="0x4047dd" desc="clc,jnc"/>
+   </cfnops>
+   <fixed-conditionals><!-- disabled -->
+     <fixed-true a="0x401125"/>   <!-- jnz, jz -->
+     <fixed-true a="0x4011dc"/>   <!-- jz, jnz -->
+     <fixed-true a="0x4011e2"/>   <!-- jz, jnz -->
+     <fixed-true a="0x4019c8"/>   <!-- jz, jnz -->
+     <fixed-true a="0x401b0d"/>   <!-- jz, jnz -->
+     <fixed-true a="0x401ccb"/>   <!-- jz, jnz -->
+     <fixed-true a="0x40222a"/>   <!-- clc, jnc -->
+     <fixed-true a="0x4028ef"/>   <!-- clc, jnc -->
+     <fixed-true a="0x402a45"/>   <!-- jz, jnz -->
+     <fixed-true a="0x402fef"/>   <!-- clc, jnc -->
+     <fixed-true a="0x403822"/>   <!-- jz, jnz -->
+     <fixed-true a="0x40407f"/>   <!-- jle, jg -->
+     <fixed-true a="0x405b27"/>   <!-- jnz, jz -->
+     <fixed-true a="0x4047d5"/>   <!-- clc, jnc -->
+   </fixed-conditionals>
+  </system-info>
+ </codehawk-binary-analyzer>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V031.iexe" time="2016-06-10 22:03:22.390588"/>
+  <system-info app="V031">
+    <settings/>
+    <data-blocks>
+      <db start="0x40135d" end="0x4013bd"/>
+      <db start="0x4015c9" end="0x40172c"/>
+      <db start="0x40a4d0" end="0x40a4d4"/>
+      <db start="0x40a4e0" end="0x40a5fd"/>
+      <db start="0x40b000" end="0x40b470"/>
+      <db start="0x411d0f" end="0x412000"/>
+      <db start="0x412000" end="0x413000"/>
+      <db start="0x413000" end="0x414000"/>
+      <db start="0x414000" end="0x414750"/>
+      <db start="0x4148e6" end="0x415000"/>
+      <db start="0x415000" end="0x416000"/>
+      <db start="0x416000" end="0x417000"/>
+      <db start="0x417000" end="0x418000"/>
+      <db start="0x418000" end="0x419000"/>
+      <db start="0x419000" end="0x41a000"/>
+      <db start="0x41a000" end="0x41b000"/>
+      <db start="0x41b000" end="0x41b100"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points>
+      <fe a="0x408fc0"/>
+      <fe a="0x408fe0"/>
+      <fe a="0x409000"/>
+      <fe a="0x40ba98"/>
+      <fe a="0x40c2b9"/>
+      <fe a="0x40c9b1"/>
+    </function-entry-points>
+    <non-returning-functions/>
+    <userdeclared-codesections>
+      <code va="0x40b000" size="0x10c00"/>
+    </userdeclared-codesections>
+    <esp-adjustments>
+      <esp-adj fa="0x4083c0" ia="0x4083e3" adj="0"/>
+    </esp-adjustments>
+  </system-info>
+</codehawk-binary-analyzer>

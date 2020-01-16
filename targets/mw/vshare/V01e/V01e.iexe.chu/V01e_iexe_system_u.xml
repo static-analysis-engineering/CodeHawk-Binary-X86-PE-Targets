@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <codehawk-binary-analyzer>
+  <header info="system-userdata" name="V01e.iexe" time="11/18/2015 17:41:31"/>
+  <notes>
+    The indirect call at 0x40fb35 appears in several different functions:
+    0x40f350,0x40fb35: gv_0x41f4b0_in
+    0x40f69a,0x40fb35: gv_0x41f4b0_in
+    0x40fafc,0x40fb35: gv_0x41f4b0_in
+    0x40fb52,0x40fb35: gv_0x41f4b0_in
+    0x40fba3,0x40fb35: gv_0x41f4b0_in
+    All of these have the common tail 0x40fafc, which is the only function in
+    which the indirect call is reported in idapro.
+
+    The indirect call at 0x401435c also appears in several different functions:
+    0x40f350,0x41435c: gv_0x41f610_in
+    0x40f69a,0x41435c: gv_0x41f610_in
+    0x40fafc,0x41435c: gv_0x41f610_in
+    0x40fb4d,0x41435c: gv_0x41f610_in
+    0x40fb52,0x41435c: gv_0x41f610_in
+    0x40fba3,0x41435c: gv_0x41f610_in
+    0x41434f,0x41435c: gv_0x41f610_in
+    All of these have the common tail ox41434f, which is the only function in
+    which the indirect call is reported in idapro.
+  </notes>
+  <system-info app="V01e">
+   <settings/>
+   <data-blocks/>
+   <function-names>
+     <fn a="0x40e118" n="__cinit" src="idapro"/> 
+     <fn a="0x40ebc6" n="__fpmath" src="idapro"/> 
+   </function-names>
+   <function-entry-points/>
+   <non-returning-functions/>
+   <call-targets>
+     <tgt fa="0x40e118" ia="0x40e121" ctag="app" appa="0x40ebc6" src="idapro"/> 
+     <tgt fa="0x40fb52" ia="0x40fb8b" ctag="app" appa="0x40fafc" src="idapro"/>
+   </call-targets>
+  </system-info>
+ </codehawk-binary-analyzer>

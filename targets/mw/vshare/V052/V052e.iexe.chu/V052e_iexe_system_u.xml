@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V052e.iexe" time="2016-05-24 16:41:40.168319"/>
+  <system-info app="V052">
+    <settings/>
+    <data-blocks/>
+    <function-names/>
+    <function-entry-points/>
+    <non-returning-functions/>
+  </system-info>
+</codehawk-binary-analyzer>

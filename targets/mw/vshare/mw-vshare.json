@@ -1,0 +1,235 @@
+{
+    "executables": {
+	"V001": {
+	    "path": "V001",
+	    "file": "V001.iexe",
+	    "md5": "001dd76872d80801692ff942308c64e6",
+	    "sha256": "b6bc96ffcbdbf22f908a02b8fe2a392c8e5b8420a120935c2834f0dd5934832e",
+	    "size": 32768
+	},
+	"V002": {
+	    "path": "V002",
+	    "file": "V002.iexe",
+	    "md5": "002325a0a67fded0381b5648d7fe9b8e",
+	    "sha256": "3bff207897f6d8cd8f8e178a565d5efdd7d65c6bc270636995d328c768b02af2",
+	    "size": 33792
+	},
+	"V007": {
+	    "path": "V007",
+	    "file": "V007.iexe",
+	    "md5": "0070418b913b282536d08c994193ff42",
+	    "sha256": "3826c8af72dd3734f78863704e00327077820fc4c990597a5950d3b33a4e4ce7",
+	    "size": 521912
+	},
+	"V008": {
+	    "path": "V008",
+	    "file": "V008.iexe",
+	    "md5": "008f71b36e52db0e036d4d43646cab7d",
+	    "sha256": "72a82f67305ccdee158d027f2c41ece5f241633fd34b56191c83a577babdb858",
+	    "size": 697040
+	},
+	"V00b": {
+	    "path": "V00b",
+	    "file": "V00b.iexe",
+	    "md5": "00bdbd59ea0e8fd0e9d606ba16618813",
+	    "sha256": "e3bf0539cbd12d84f7d148b224b857a1ca16ec5e3e5d9a7ac1082b03a04fc8f3",
+	    "size": 301976
+	},
+	"V00bc": {
+	    "path": "V00b",
+	    "file": "V00bc.iexe",
+	    "md5": "00bc16a87481554038b4f13050305f75",
+	    "sha256": "6f71628d0c057b06478c63952baa2f964d19fc8778185b0e6caba2bfc0745f65",
+	    "size": 219032
+	},
+	"V00bcd": {
+	    "path": "V00b",
+	    "file": "V00bcd.iexe",
+	    "md5": "00bcd157343d512d652192a33cbdcc12",
+	    "sha256": "2c24051e7db1eabbb83f6b1b66c433c978bba46dd14ffbb7a3a4851c18e86f19",
+	    "size": 144235
+	},
+	"V00c": {
+	    "path": "V00c",
+	    "file": "V00c.iexe",
+	    "md5": "00c75e33512a0beb2adcd6e41923fcbb",
+	    "sha256": "66eb093dea7934203efb43d9e1de65e77f1ebb8b4b6d1f80d44230f165d8356a",
+	    "size": 645120
+	},
+	"V00d": {
+	    "path": "V00d",
+	    "file": "V00d.iexe",
+	    "md5": "00da87c9c40ae6f19fa1d0f6e2250a8d",
+	    "sha256": "a70a9ce1e6b6d21762b7c13a3c4c6ee063fcfdd4637fe9d5125f4bd781d4f240",
+	    "size": 34820
+	},
+	"V00db": {
+	    "path": "V00d",
+	    "file": "V00db.iexe",
+	    "md5": "00dbb9e1c09dbdafb360f3163ba5a3de",
+	    "sha256": "df649cef1505653a2fc4361f1e2e34f7148b60c00e1cf663943d6e65b43ec421",
+	    "size": 65024
+	},
+	"V014": {
+	    "path": "V014",
+	    "file": "V014.iexe",
+	    "md5": "0149b7bd7218aab4e257d28469fddb0d",
+	    "sha256": "13e40ee7c6874e2f1ed58bc09738a5525f86361f1a85387b2110f114d8f3272a",
+	    "size": 17408
+	},
+	"V01a": {
+	    "path": "V01a",
+	    "file": "V01a.iexe",
+	    "md5": "01a2e0034f1a6efd56a33e27a8741447",
+	    "sha256": "35235e781c379a271a5f27828dde8bade23f0e19a349cb3f727f15d0bb59f1f8",
+	    "size": 1189192
+	},
+	"V01e": {
+	    "path": "V01e",
+	    "file": "V01e.iexe",
+	    "md5": "01e0dc079d4e33d8edd050c4900818da",
+	    "sha256": "3eaa53ec7fe5fb610bb9a0dd3d0b93480869b829aac3733d2dc0cd83e77ec2fe",
+	    "size": 131072
+	},
+	"V022": {
+	    "path": "V022",
+	    "file": "V022.iexe",
+	    "md5": "02244df3470dfac0363c4b64eeb77116",
+	    "sha256": "d37ae70cb8b516557a9e9ee4c95dd73dc747a167c30474b73d74a8b09914f234",
+	    "size": 98304
+	},
+	"V02c": {
+	    "path": "V02c",
+	    "file": "V02c.iexe",
+	    "md5": "02c65973b6018f5d473d701b3e7508b2",
+	    "sha256": "ec3a37a635c8ccd6c80c725f3808e21352872184fe4e9b1b96b4b6ed379fc85d",
+	    "size": 94208
+	},
+	"V030": {
+	    "path": "V030",
+	    "file": "V030.iexe",
+	    "md5": "0303d5cd6148a1b2cde62229cde58747",
+	    "sha256": "702dbbe247329e636d115ffbe2f48bc605313d137198daba42b7fae0e8f3cac4",
+	    "size":  34820
+	},
+	"V031": {
+	    "path": "V031",
+	    "file": "V031.iexe",
+	    "md5": "0319f75e7c9f716cd41b40d2ea3e11fd",
+	    "sha256": "e590c036ccdbbcacd1c51b0be6a52cdab6b6adac6adc8275843415f93fd940fa",
+	    "size": 124312
+	},
+	"V034": {
+	    "path": "V034",
+	    "file": "V034.iexe",
+	    "md5": "034374db2d35cf9da6558f54cec8a455",
+	    "sha256": "57866e54b1808069092ade9ac8e243650f18198a24924899d83746d97a66f400",
+	    "size": 41472
+	},
+	"V036": {
+	    "path": "V036",
+	    "file": "V036.iexe",
+	    "md5": "036134ae38b772a4c60259f2eb877440",
+	    "sha256": "6f5a5273ee6eec84fcda443008a89b28e7f2b9c33438f5b2898bdb2b4f5faae3",
+	    "size": 128811
+	},
+	"V0365": {
+	    "path": "V036",
+	    "file": "V0365.iexe",
+	    "md5": "0365d3c2fa0980e35c8d8282e32a0e50",
+	    "sha256": "22bd82972fff6bc61ae39421a489ae9ce04ed42d5eaee0a00e6d5c7e089dd489",
+	    "size": 516608
+	},
+	"V03b": {
+	    "path": "V03b",
+	    "file": "V03b.iexe",
+	    "md5": "03be0897c43bd8ed67028d207077318b",
+	    "sha256": "a09fc9be4c7930b42bdb5026b937fef80e4ca5dd0bd364a6cced1b313ee25d3e",
+	    "size": 223923
+	},
+	"V03c": {
+	    "path": "V03c",
+	    "file": "V03c.iexe",
+	    "md5": "03cd8de1e7899675c498866227d3c2e9",
+	    "sha256": "dc50d10b5e265b8902808d9319405ffc54bb39e80d1e9ddd5045a8924a3516a0",
+	    "size": 207872
+	},
+	"V03e": {
+	    "path": "V03e",
+	    "file": "V03e.iexe",
+	    "md5": "03e049128ad2bbaab73c32228d970378",
+	    "sha256": "e2082160b1fc3f2b70521eca8d341ad31a91beb841252af49c9cdf24bd0e75ee",
+	    "size": 642578
+	},
+	"V040": {
+	    "path": "V040",
+	    "file": "V040.iexe",
+	    "md5": "04013c3e85eded99ef4090675eff0311",
+	    "sha256": "bd3c3f6fd459f6ab565463a58791238f9e63a940ac8071d45dfcf57151c61df2",
+	    "size": 363008
+	},
+	"V041": {
+	    "path": "V041",
+	    "file": "V041.iexe",
+	    "md5": "041074aa8b173cbf5f749a28404e32c2",
+	    "sha256": "d63cdfbfc59cff2b814d4247a9dcca80d709da766aa16a824988a2ddafb7d4d5",
+	    "size": 244632
+	},
+	"V049": {
+	    "path": "V049",
+	    "file": "V049.iexe",
+	    "md5": "0496e3b17cf40c45f495188a368c203a",
+	    "sha256": "dbbd5d7944b1791027762a40a70b3c74772a9d31b5c67b6519394a1705edabcc",
+	    "size": 21504
+	},
+	"V04a": {
+	    "path": "V04a",
+	    "file": "V04a.iexe",
+	    "md5":  "04affa75e4f25af5a9bbb61b74b77625",
+	    "sha256": "1bc0d34e75fa104bbc64a5936968e5641ae06dd5a0da59319c7aba1800a17101",
+	    "size":  19968
+	},
+	"V052": {
+	    "path": "V052",
+	    "file": "V052.iexe",
+	    "md5": "0521e94240974f67bbb5f4115c0ae77d",
+	    "sha256": "022cf6858e1cc31b5d5c807a2d7b0d5852a5e8b34496b1bb30d11e0314d1c719",
+	    "size": 524676
+	},
+	"V052e": {
+	    "path": "V052",
+	    "file": "V052e.iexe",
+	    "md5": "052ec04866e4a67f31845d656531830d",
+	    "sha256": "eec094bd3604a2fd84333113fbc0aee4fe394c5b74c7cc28216aa53d714d1bf3",
+	    "size": 33829
+	},
+	"V053": {
+	    "path": "V053",
+	    "file": "V053.iexe",
+	    "md5": "05397f8d7a89b0735a48c3a283c11e45",
+	    "sha256": "7ad4792c20559453ca8b52ebbc96feb75bdd363c03c3293f2710d1ce136ed75d",
+	    "size": 94208
+	},
+	"V062": {
+	    "path": "V062",
+	    "file": "V062.iexe",
+	    "md5": "062c8d540ee1f3282e204ff589ec9437",
+	    "sha256": "e351c0cb9bf8baf53fbef44fc70a7a3fa5449bd74b55a82ba54b10da3ce0f883",
+	    "size": 222720
+	},
+	"V065": {
+	    "path": "V065",
+	    "file": "V065.iexe",
+	    "md5": "065e63afdfa539727f63af7530b22d2f",
+	    "sha256": "c62de4a72361cf1db38ba8c4f59d386f0e1c02f190cf6c8698ae3a14295bcb04",
+	    "size": 53248
+	},
+	"V067": {
+	    "path": "V067",
+	    "file": "V067.iexe",
+	    "md5": "0674d1c84e6678e25d5aaa7a3808aaaa",
+	    "sha256": "df75dcfbad8dc251b07deb40ce65ca3869b69516ba2183d39f49bb244fa1bd25",
+	    "size": 13172
+	}
+    }
+}

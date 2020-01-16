@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <codehawk-binary-analyzer>
+  <header info="system-userdata" name="V065.iexe" time="11/19/2015 10:39:57"/>
+  <system-info app="V065">
+   <settings/>
+   <data-blocks/>
+   <function-names/>
+   <function-entry-points/>
+   <non-returning-functions/>
+   <esp-adjustments-i>
+     <esp-adj ia="0x40140c" adj="4"/><!-- (rtn_0x4013eb)[1080] -->
+     <esp-adj ia="0x401422" adj="8"/><!-- (rtn_0x4013eb)[1084] -->
+     <esp-adj ia="0x401430" adj="8"/><!-- (rtn_0x4013eb)[1084] -->
+     <esp-adj ia="0x401447" adj="20"/>
+     <esp-adj ia="0x40147e" adj="32"/><!-- rtn_0x401430 -->
+     <esp-adj ia="0x401501" adj="4"/><!-- (rtn_0x4014dc)[1080] -->
+     <esp-adj ia="0x401578" adj="8"/><!-- (rtn_0x4014dc)[1084] -->
+     <esp-adj ia="0x40158a" adj="20"/><!-- rtn_0x401578 -->
+     <esp-adj ia="0x4016bd" adj="8"/><!-- (rtn_0x4014dc)[1084] -->
+     <esp-adj ia="0x4016d1" adj="20"/><!-- rtn_0x4016bd -->
+     <esp-adj ia="0x401731" adj="4"/><!-- (rtn_0x401710)[1080] -->
+     <esp-adj ia="0x401745" adj="8"/><!-- (rtn_0x401710)[1084] -->
+     <esp-adj ia="0x401750" adj="8"/><!-- (rtn_0x401710)[1084] -->
+     <esp-adj ia="0x401925" adj="16"/>
+     <esp-adj ia="0x402a0a" adj="4"/><!-- (rtn_0x4029ea)[1084] -->
+     <esp-adj ia="0x402a1a" adj="8"/><!-- (rtn_0x4029ea)[1084] -->
+     <esp-adj ia="0x402a2b" adj="8"/><!-- (rtn_0x4029ea)[1084] -->
+     <esp-adj ia="0x402a3c" adj="8"/><!-- (rtn_0x4029ea)[1084] -->
+     <esp-adj ia="0x402a4d" adj="8"/><!-- (rtn_0x4029ea)[1084] -->
+     <esp-adj ia="0x402a5b" adj="8"/><!-- (rtn_0x4029ea)[1084] -->
+     <esp-adj ia="0x402afa" adj="20"/><!-- arg.0004 -->
+     <esp-adj ia="0x402b1f" adj="32"/>
+     <esp-adj ia="0x402b41" adj="32"/>
+     <esp-adj ia="0x402bf2" adj="16"/><!-- rtn_0x402a3c -->
+     <esp-adj ia="0x402c5b" adj="16"/>
+     <esp-adj ia="0x402d16" adj="4"/><!-- (rtn_0x402cf6)[1080] -->
+     <esp-adj ia="0x402d26" adj="8"/><!-- (rtn_0x402cf6)[1084] -->
+     <esp-adj ia="0x402d37" adj="8"/><!-- (rtn_0x402cf6)[1084] -->
+     <esp-adj ia="0x402d48" adj="8"/><!-- (rtn_0x402cf6)[1084] -->
+     <esp-adj ia="0x402d59" adj="8"/><!-- (rtn_0x402cf6)[1084] -->
+     <esp-adj ia="0x402d6a" adj="8"/><!-- (rtn_0x402cf6)[1084] -->
+     <esp-adj ia="0x402dac" adj="20"/><!-- arg.0004 -->
+     <esp-adj ia="0x402dc9" adj="32"/>
+     <esp-adj ia="0x402de9" adj="32"/><!-- rtn_0x402d6a -->
+     <esp-adj ia="0x402df4" adj="20"/><!-- rtn_0x402d59 -->
+     <esp-adj ia="0x402e30" adj="16"/><!-- rtn_0x402d48 -->
+     <esp-adj ia="0x402e90" adj="16"/>
+     <esp-adj ia="0x403315" adj="4"/><!-- (rtn_0x4032f4)[1080] -->
+     <esp-adj ia="0x40332c" adj="8"/><!-- (rtn_0x4032f4)[1084] -->
+     <esp-adj ia="0x40333b" adj="8"/><!-- (rtn_0x4032f4)[1084] -->
+     <esp-adj ia="0x40334f" adj="20"/>
+     <esp-adj ia="0x40336d" adj="32"/>
+     <esp-adj ia="0x40452b" adj="4"/><!-- (rtn_0x40450b)[1080] -->
+     <esp-adj ia="0x404539" adj="8"/><!-- (rtn_0x40450b)[1084] -->
+     <esp-adj ia="0x40454e" adj="8"/><!-- rtn_0x404539 -->
+     <esp-adj ia="0x40588f" adj="0" args="2"/><!-- (arg.0008_in)[36] -->
+     <esp-adj ia="0x4058c1" adj="0" args="2"/><!-- (arg.0008_in)[36] -->
+     <esp-adj ia="0x4058f1" adj="0" args="3"/><!-- (arg.0004_in)[56] -->
+     <esp-adj ia="0x405919" adj="0" args="2"/><!-- (arg.0008_in)[36] -->
+     <esp-adj ia="0x405922" adj="0" args="2"/><!-- (arg.0008_in)[36] -->
+     <esp-adj ia="0x405929" adj="0" args="2"/><!-- (arg.0008_in)[36] -->
+     <esp-adj ia="0x406dd2" adj="0" args="3"/><!-- (arg.0004_in)[16] -->
+     <esp-adj ia="0x406e69" adj="0" args="3"/><!-- (arg.0004_in)[16] -->
+     <esp-adj ia="0x406ebb" adj="0" args="3"/><!-- (arg.0004_in)[16] -->
+     <esp-adj ia="0x406eed" adj="0" args="3"/><!-- (arg.0004_in)[16] -->
+     <esp-adj ia="0x406f4c" adj="0"/><!-- (arg.0004_in)[16] -->
+     <esp-adj ia="0x406f86" adj="0"/><!-- (arg.0004_in)[16] -->
+     <esp-adj ia="0x407101" adj="0" args="3"/><!-- (arg.0004_in)[12] -->
+     <esp-adj ia="0x40741b" adj="0"/><!-- (arg.0004_in)[12] -->
+   </esp-adjustments-i>
+  </system-info>
+ </codehawk-binary-analyzer>

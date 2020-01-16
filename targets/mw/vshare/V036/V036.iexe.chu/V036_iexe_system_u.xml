@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codehawk-binary-analyzer>
+  <header info="system-userdata" name="V036.iexe" time="2016-06-10 22:01:33.616197"/>
+  <system-info app="V036">
+    <settings/>
+    <data-blocks>
+      <db start="0x401000" end="0x401088"/>
+      <db start="0x4010a8" end="0x401101"/>
+      <db start="0x40112c" end="0x40117c"/>
+      <db start="0x401198" end="0x4011d4"/>
+      <db start="0x403679" end="0x4036bd"/>
+      <db start="0x4036c0" end="0x4038b4"/>
+      <db start="0x403983" end="0x4039b0"/>
+      <db start="0x4046af" end="0x4046bc"/>
+      <db start="0x404c51" end="0x404c52"/>
+      <db start="0x406044" end="0x406068"/>
+      <db start="0x406298" end="0x4062d8"/>
+      <db start="0x406da8" end="0x407038"/>
+      <db start="0x407070" end="0x40709c"/>
+      <db start="0x4070bc" end="0x407104"/>
+      <db start="0x407124" end="0x407160"/>
+      <db start="0x407180" end="0x4071bc"/>
+      <db start="0x4071dc" end="0x407214"/>
+      <db start="0x407234" end="0x40726c"/>
+      <db start="0x40728c" end="0x4072cc"/>
+      <db start="0x4072ec" end="0x407324"/>
+      <db start="0x407344" end="0x40737c"/>
+      <db start="0x40739c" end="0x4073d4"/>
+      <db start="0x4073f4" end="0x407430"/>
+      <db start="0x407450" end="0x407488"/>
+      <db start="0x4074a8" end="0x4074e0"/>
+      <db start="0x407500" end="0x407538"/>
+      <db start="0x407558" end="0x407590"/>
+      <db start="0x4075b0" end="0x4075e8"/>
+      <db start="0x407608" end="0x407644"/>
+      <db start="0x407664" end="0x4076a0"/>
+      <db start="0x4076c0" end="0x4076fc"/>
+      <db start="0x40771c" end="0x40775c"/>
+      <db start="0x40777c" end="0x4077b4"/>
+      <db start="0x4077d4" end="0x407810"/>
+      <db start="0x407830" end="0x407868"/>
+      <db start="0x407888" end="0x4078c4"/>
+      <db start="0x4078e4" end="0x407924"/>
+      <db start="0x407944" end="0x407980"/>
+      <db start="0x4079a0" end="0x4079dc"/>
+      <db start="0x4079fc" end="0x407a34"/>
+      <db start="0x407a54" end="0x407ae8"/>
+      <db start="0x407b08" end="0x407b1d"/>
+      <db start="0x407b78" end="0x407bc8"/>
+      <db start="0x407be4" end="0x407c0c"/>
+      <db start="0x407e19" end="0x407e28"/>
+      <db start="0x407e4d" end="0x407e5c"/>
+      <db start="0x407ef4" end="0x407f0c"/>
+      <db start="0x40811d" end="0x40812c"/>
+      <db start="0x408d43" end="0x408d53"/>
+      <db start="0x40938c" end="0x4093dc"/>
+      <db start="0x4091a8" end="0x4091b4"/>
+      <db start="0x409567" end="0x409570"/>
+      <db start="0x409615" end="0x409624"/>
+      <db start="0x4097bc" end="0x4097dc"/>
+      <db start="0x40983a" end="0x40985c"/>
+      <db start="0x40a2b6" end="0x40a2d8"/>
+      <db start="0x40a5af" end="0x40a650"/>
+      <db start="0x40a75a" end="0x40a780"/>
+      <db start="0x40aec4" end="0x40b1a4"/>
+      <db start="0x40b395" end="0x40b3a4"/>
+      <db start="0x40b4a2" end="0x40b4f0"/>
+      <db start="0x40b54c" end="0x40b590"/>
+      <db start="0x40c82d" end="0x40c840"/>
+      <db start="0x40c8b2" end="0x40c8c4"/>
+      <db start="0x40d24b" end="0x40d25c"/>
+      <db start="0x40d370" end="0x40d380"/>
+      <db start="0x40d45d" end="0x40d470"/>
+      <db start="0x40d55a" end="0x40d56c"/>
+      <db start="0x40d970" end="0x40d984"/>
+      <db start="0x40dfb1" end="0x40dfb8"/>
+      <db start="0x40f010" end="0x40f034"/>
+      <db start="0x40f6d8" end="0x40f7a8"/>
+      <db start="0x40f7e0" end="0x40f80c"/>
+      <db start="0x40f900" end="0x40f90c"/>
+      <db start="0x4105e4" end="0x410610"/>
+      <db start="0x410630" end="0x41066c"/>
+      <db start="0x41068c" end="0x4106c8"/>
+      <db start="0x4106e8" end="0x410720"/>
+      <db start="0x410740" end="0x410778"/>
+      <db start="0x410798" end="0x4107d0"/>
+      <db start="0x4107f0" end="0x410828"/>
+      <db start="0x410848" end="0x410884"/>
+      <db start="0x4108a4" end="0x4108dc"/>
+      <db start="0x4108fc" end="0x41093c"/>
+      <db start="0x41095c" end="0x410998"/>
+      <db start="0x4109c8" end="0x4109fc"/>
+      <db start="0x410a1c" end="0x410a54"/>
+      <db start="0x410a80" end="0x410af0"/>
+      <db start="0x410b38" end="0x410b54"/>
+      <db start="0x410b64" end="0x410bfc"/>
+      <db start="0x410c9c" end="0x410d2c"/>
+      <db start="0x410de4" end="0x410e44"/>
+      <db start="0x410e80" end="0x410eb4"/>
+      <db start="0x410ef0" end="0x410f2c"/>
+      <db start="0x410f68" end="0x410fa0"/>
+      <db start="0x410fdc" end="0x41101c"/>
+      <db start="0x41105c" end="0x411098"/>
+      <db start="0x4110c8" end="0x4110fc"/>
+      <db start="0x411144" end="0x41118c"/>
+      <db start="0x4111c0" end="0x4111f1"/>
+      <db start="0x41125c" end="0x4112d0"/>
+      <db start="0x411314" end="0x411348"/>
+      <db start="0x411388" end="0x411424"/>
+      <db start="0x411444" end="0x41147c"/>
+      <db start="0x41149c" end="0x4114a8"/>
+      <db start="0x4121cf" end="0x4121dc"/>
+      <db start="0x41228b" end="0x412298"/>
+      <db start="0x412322" end="0x412334"/>
+      <db start="0x412618" end="0x412624"/>
+      <db start="0x4129e0" end="0x4129f0"/>
+      <db start="0x412da1" end="0x412db0"/>
+      <db start="0x412ef8" end="0x412f04"/>
+      <db start="0x4141d0" end="0x4141fc"/>
+      <db start="0x414220" end="0x414274"/>
+      <db start="0x414298" end="0x4142a8"/>
+      <db start="0x414493" end="0x4144a4"/>
+      <db start="0x415441" end="0x415480"/>
+      <db start="0x4157ff" end="0x415834"/>
+      <db start="0x416680" end="0x416690"/>
+      <db start="0x417071" end="0x417088"/>
+      <db start="0x4171c8" end="0x417204"/>
+      <db start="0x417aa0" end="0x417acc"/>
+      <db start="0x417d97" end="0x417da4"/>
+      <db start="0x417e68" end="0x417e78"/>
+      <db start="0x417f88" end="0x417f98"/>
+      <db start="0x4186cb" end="0x4186dc"/>
+      <db start="0x418981" end="0x418988"/>
+      <db start="0x418cc9" end="0x418ce8"/>
+      <db start="0x41933c" end="0x419358"/>
+      <db start="0x4196e5" end="0x4196f4"/>
+      <db start="0x419228" end="0x419240"/>
+      <db start="0x419290" end="0x4192bc"/>
+      <db start="0x4192dc" end="0x41931c"/>
+      <db start="0x419a04" end="0x419a1c"/>
+      <db start="0x419a6c" end="0x41a324"/>
+      <db start="0x41a3c7" end="0x41a3d4"/>
+      <db start="0x41a51c" end="0x41a52c"/>
+      <db start="0x41a564" end="0x41a584"/>
+      <db start="0x41a55b" end="0x41a564"/>
+      <db start="0x41a5b3" end="0x41a5dc"/>
+      <db start="0x41a6a4" end="0x41a6c4"/>
+      <db start="0x41a77c" end="0x41a7c4"/>
+      <db start="0x41ab19" end="0x41ac04"/>
+      <db start="0x41ad18" end="0x41ad84"/>
+      <db start="0x41adc9" end="0x41ade8"/>
+      <db start="0x41aee8" end="0x41aef8"/>
+      <db start="0x41afcc" end="0x41afd4"/>
+      <db start="0x41b014" end="0x41b1fe"/>
+    </data-blocks>
+    <function-names/>
+    <function-entry-points>
+      <fe a="0x402aac"/>
+      <fe a="0x402aec"/>
+      <fe a="0x402b38"/>
+      <fe a="0x402b58"/>
+      <fe a="0x4031cc"/>
+      <fe a="0x403f20"/>
+      <fe a="0x40404c"/>
+      <fe a="0x404370"/>
+      <fe a="0x406984"/>
+      <fe a="0x406b30"/>
+      <fe a="0x406b68"/>
+      <fe a="0x406da0"/>
+      <fe a="0x407068"/>
+      <fe a="0x40985c"/>
+      <fe a="0x409a20"/>
+      <fe a="0x40a7e4"/>
+      <fe a="0x40aaa4"/>
+      <fe a="0x40b3d4"/>
+      <fe a="0x40b46c"/>
+      <fe a="0x40c07c"/>
+      <fe a="0x40c79c"/>
+      <fe a="0x40c840"/>
+      <fe a="0x40c964"/>
+      <fe a="0x40c9b0"/>
+      <fe a="0x40cad4"/>
+      <fe a="0x40cb00"/>
+      <fe a="0x40cc44"/>
+      <fe a="0x40dfb8"/>
+      <fe a="0x40e438"/>
+      <fe a="0x40f0b0"/>
+      <fe a="0x40f174"/>
+      <fe a="0x40f7d8"/>
+      <fe a="0x40f90c"/>
+      <fe a="0x4105a4"/>
+      <fe a="0x411524"/>
+      <fe a="0x4116fc"/>
+      <fe a="0x411c4c"/>
+      <fe a="0x411ca0"/>
+      <fe a="0x412334"/>
+      <fe a="0x412398"/>
+      <fe a="0x412624"/>
+      <fe a="0x4127a4"/>
+      <fe a="0x4127c8"/>
+      <fe a="0x412db0"/>
+      <fe a="0x412f04"/>
+      <fe a="0x413118"/>
+      <fe a="0x41348c"/>
+      <fe a="0x4134e8"/>
+      <fe a="0x4134f4"/>
+      <fe a="0x413558"/>
+      <fe a="0x413574"/>
+      <fe a="0x413590"/>
+      <fe a="0x4135d0"/>
+      <fe a="0x41363c"/>
+      <fe a="0x4136bc"/>
+      <fe a="0x413734"/>
+      <fe a="0x413770"/>
+      <fe a="0x4137cc"/>
+      <fe a="0x413808"/>
+      <fe a="0x4138e4"/>
+      <fe a="0x413940"/>
+      <fe a="0x413a14"/>
+      <fe a="0x413a30"/>
+      <fe a="0x413a3d"/>
+      <fe a="0x413a48"/>
+      <fe a="0x413a5c"/>
+      <fe a="0x413a6c"/>
+      <fe a="0x413aa4"/>
+      <fe a="0x413ab4"/>
+      <fe a="0x413e08"/>
+      <fe a="0x413f50"/>
+      <fe a="0x413f8c"/>
+      <fe a="0x413fe8"/>
+      <fe a="0x414054"/>
+      <fe a="0x414080"/>
+      <fe a="0x41410c"/>
+      <fe a="0x4142a8"/>
+      <fe a="0x414624"/>
+      <fe a="0x4147a8"/>
+      <fe a="0x4147c8"/>
+      <fe a="0x4149cc"/>
+      <fe a="0x415540"/>
+      <fe a="0x4163d4"/>
+      <fe a="0x4163ec"/>
+      <fe a="0x416888"/>
+      <fe a="0x416968"/>
+      <fe a="0x41700c"/>
+      <fe a="0x417088"/>
+      <fe a="0x417acc"/>
+      <fe a="0x417d0f"/>
+      <fe a="0x417da4"/>
+      <fe a="0x4186dc"/>
+      <fe a="0x41893c"/>
+      <fe a="0x418988"/>
+      <fe a="0x418a0c"/>
+      <fe a="0x418a20"/>
+      <fe a="0x418c04"/>
+      <fe a="0x418cfc"/>
+      <fe a="0x418d20"/>
+      <fe a="0x418d2c"/>
+      <fe a="0x418d38"/>
+      <fe a="0x418dd8"/>
+      <fe a="0x418e40"/>
+      <fe a="0x418fb4"/>
+      <fe a="0x418fdc"/>
+      <fe a="0x419004"/>
+      <fe a="0x4191c4"/>
+      <fe a="0x419434"/>
+      <fe a="0x4196f4"/>
+      <fe a="0x419a64"/>
+      <fe a="0x41a3d4"/>
+      <fe a="0x41a5dc"/>
+      <fe a="0x41a6c3"/>
+      <fe a="0x41ac04"/>
+    </function-entry-points>
+    <non-returning-functions/>
+    <invalidated-jumptable-startaddresses>
+      <jt a="0x40c0f9"/>
+      <jt a="0x40c1d5"/>
+      <jt a="0x40c35d"/>
+      <jt a="0x40c499"/>
+      <jt a="0x40c8f5"/>
+      <jt a="0x40d291"/>
+      <jt a="0x40d3bf"/>
+      <jt a="0x40d5cd"/>
+      <jt a="0x40dea5"/>
+      <jt a="0x40e036"/>
+      <jt a="0x40eb68"/>
+      <jt a="0x4166d2"/>
+    </invalidated-jumptable-startaddresses>
+    <excluded-jumptables>
+      <jt a="0x403c90"/>
+      <jt a="0x41273c"/>
+    </excluded-jumptables>
+  </system-info>
+</codehawk-binary-analyzer>

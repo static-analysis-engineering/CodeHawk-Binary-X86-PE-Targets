@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <codehawk-binary-analyzer>
+  <header info="system-userdata" name="V00db.iexe" time="11/18/2015 12:17:59"/>
+  <system-info app="V00db">
+   <settings/>
+   <data-blocks>
+     <db start="0x400400" end="0x400c50"/>
+     <db start="0x40e650" end="0x40fbfc"/><!-- looks like self-modified code will go here -->
+   </data-blocks>
+   <function-names/>
+   <function-entry-points>
+     <fe a="0x4010b0"/>
+     <fe a="0x401b8a"/>
+     <fe a="0x407990"/>
+     <fe a="0x408030"/>
+     <fe a="0x408070"/>
+     <fe a="0x4080b0"/>
+     <fe a="0x40a680"/>
+     <fe a="0x40d4e0"/>
+     <fe a="0x40d5b3"/>
+     <fe a="0x40d69b"/>
+     <fe a="0x40d8a8"/>
+   </function-entry-points>
+   <non-returning-functions/>
+  </system-info>
+ </codehawk-binary-analyzer>

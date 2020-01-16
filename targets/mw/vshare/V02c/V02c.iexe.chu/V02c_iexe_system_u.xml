@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <codehawk-binary-analyzer>
+  <header info="system-userdata" name="V02c.iexe" time="11/18/2015 22:46:07"/>
+  <system-info app="V02c">
+   <settings/>
+   <data-blocks/>
+   <function-names/>
+   <function-entry-points>
+     <fe a="0x407c16"/>
+   </function-entry-points>
+   <non-returning-functions/>
+   <inlined-functions>
+     <ilf a="0x409f90"/>
+   </inlined-functions>
+   <call-targets>
+     <tgt fa="0x407f06" ia="0x408027" ctag="dll" dll="kernel32.dll" name="FlsAlloc"/>
+     <tgt fa="0x407f06" ia="0x408056" ctag="dll" dll="kernel32.dll" name="FlsSetValue"/>
+     <tgt fa="0x40c5fc" ia="0x40c6e0" ctag="dll" 
+	  dll="user32.dll" name="GetProcessWindowStation"/>
+     <tgt fa="0x40c5fc" ia="0x40c6f3" ctag="dll"
+	  dll="user32.dll" name="GetUserObjectInformationW"/>
+     <tgt fa="0x40c5fc" ia="0x40c719" ctag="dll"
+	  dll="user32.dll" name="GetActiveWindow"/>
+     <tgt fa="0x40c5fc" ia="0x40c736" ctag="dll"
+	  dll="user32.dll" name="GetLastActivePopup"/>
+     <tgt fa="0x40c5fc" ia="0x40c753" ctag="dll"
+	  dll="user32.dll" name="MessageBoxW"/>
+   </call-targets>
+  </system-info>
+ </codehawk-binary-analyzer>
